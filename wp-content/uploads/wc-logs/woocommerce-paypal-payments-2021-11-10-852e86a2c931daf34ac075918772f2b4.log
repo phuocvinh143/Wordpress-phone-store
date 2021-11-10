@@ -1,0 +1,29 @@
+2021-11-10T00:43:25+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 16405facaaed2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-10T00:43:26+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: af3c08ce6aced
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-10T00:45:09+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 73c5fe453a24
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

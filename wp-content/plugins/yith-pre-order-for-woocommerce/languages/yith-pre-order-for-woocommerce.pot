@@ -1,0 +1,296 @@
+# Copyright (C) 2021 YITH Pre-Order for WooCommerce
+# This file is distributed under the same license as the YITH Pre-Order for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Pre-Order for WooCommerce 1.4.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2021-09-27 12:13:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class.yith-pre-order-admin.php:130
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:133
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:211
+msgid "Plugin documentation"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:215
+msgid "Help Center"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:222
+msgid "Discover the premium version"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:227
+msgid "Free Vs Premium"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:232
+msgid "Premium live demo"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:237
+msgid "WordPress support forum"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:242
+#: includes/class.yith-pre-order-admin.php:254
+msgid "Changelog"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:242
+#: includes/class.yith-pre-order-admin.php:254
+msgid "current version"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:249
+msgid "Support platform"
+msgstr ""
+
+#: includes/class.yith-pre-order-admin.php:301
+msgid "Pre-Ordered"
+msgstr ""
+
+#: includes/class.yith-pre-order-edit-product-page.php:60
+msgctxt "Set the product as a Pre-Order product."
+msgid "Pre-Order"
+msgstr ""
+
+#: includes/class.yith-pre-order-edit-product-page.php:61
+msgid "Set the Pre-Order status for this product."
+msgstr ""
+
+#: includes/class.yith-pre-order-edit-product-page.php:87
+msgctxt "Set the variation to Pre-Order status."
+msgid "Pre-Order"
+msgstr ""
+
+#: includes/class.yith-pre-order-edit-product-page.php:88
+msgid "Enable this option to set this variation to the Pre-Order status."
+msgstr ""
+
+#: includes/class.yith-pre-order-frontend.php:75
+msgid "Pre-Order Now"
+msgstr ""
+
+#: includes/class.yith-pre-order-frontend.php:103
+#: includes/class.yith-pre-order-my-account.php:71
+msgid "Pre-Order product"
+msgstr ""
+
+#: includes/class.yith-pre-order-frontend.php:132
+msgid "Pre-Order Now!"
+msgstr ""
+
+#: includes/class.yith-pre-order-my-account.php:52
+#: includes/class.yith-pre-order-my-account.php:135
+#: includes/class.yith-pre-order-my-account.php:156
+msgid "My Pre-Orders"
+msgstr ""
+
+#: includes/class.yith-pre-order-my-account.php:62
+msgid "Has Pre-Orders"
+msgstr ""
+
+#. translators: Product's name.
+
+#: includes/class.yith-pre-order.php:213
+msgid "Item %s was Pre-Ordered"
+msgstr ""
+
+#: init.php:67
+msgid "YITH Pre Order for WooCommerce is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/settings-options.php:21
+msgctxt "Panel: page title"
+msgid "General settings"
+msgstr ""
+
+#: plugin-options/settings-options.php:28
+msgctxt "Admin option: Enable plugin"
+msgid "Enable Pre-Order on Frontend"
+msgstr ""
+
+#: plugin-options/settings-options.php:30
+msgctxt "Admin option description: Enable plugin"
+msgid "Uncheck this option to disable all Pre-Order features on Frontend"
+msgstr ""
+
+#: plugin-options/settings-options.php:42
+msgid "Remove selected order statuses from Pre-Ordered view:"
+msgstr ""
+
+#: plugin-options/settings-options.php:43
+msgid "Completed"
+msgstr ""
+
+#: plugin-options/settings-options.php:51
+msgid "Cancelled"
+msgstr ""
+
+#: plugin-options/settings-options.php:59
+msgid "Refunded"
+msgstr ""
+
+#: plugin-options/settings-options.php:67
+msgid "Failed"
+msgstr ""
+
+#: plugin-options/settings-options.php:93
+msgctxt "Panel: page title"
+msgid "Label settings"
+msgstr ""
+
+#: plugin-options/settings-options.php:100
+msgctxt "Admin option: customize Add to Cart label"
+msgid "Default Add to Cart text"
+msgstr ""
+
+#: plugin-options/settings-options.php:102
+msgctxt "Admin option description: customize Add to Cart label"
+msgid "This text will be replaced on 'Add to Cart' button. By leaving it blank, it will be 'Pre-Order Now'."
+msgstr ""
+
+#: plugin-options/settings-options.php:104
+msgctxt "Default label for add to cart button(Pre-Order Now)"
+msgid "Pre-Order Now"
+msgstr ""
+
+#: templates/admin/premium_tab.php:219 templates/admin/premium_tab.php:352
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH Pre-Order for WooCommerce%2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium_tab.php:222 templates/admin/premium_tab.php:355
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium_tab.php:223 templates/admin/premium_tab.php:356
+msgid "to the premium version"
+msgstr ""
+
+#: templates/admin/premium_tab.php:229
+msgid "Premium Features"
+msgstr ""
+
+#: templates/admin/premium_tab.php:237
+msgid "Pre-Order period"
+msgstr ""
+
+#: templates/admin/premium_tab.php:240
+msgid "Create tailored sales strategies and set the %1$sexpiring date%2$s of the pre-order period for each product after which the user can complete the purchase. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:250
+msgid "Out-of-stock products"
+msgstr ""
+
+#: templates/admin/premium_tab.php:253
+msgid "An out-of-stock product prevents the user purchasing it. %3$s To avoid this to happen, you can set the product as %1$s\"pre-order\"%2$s every time it is currently out of stock."
+msgstr ""
+
+#: templates/admin/premium_tab.php:268
+msgid "Notification email "
+msgstr ""
+
+#: templates/admin/premium_tab.php:271
+msgid "The administrator receives %1$stwo notification emails:%2$s one when a user purchases a pre-order product and one when the expiring date of the pre-order period for a product of the shop is approaching. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:274
+msgid "The users receive a notification email as well when the pre-order product they purchased is %1$sback in stock%2$s. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:284
+msgid "Special offer"
+msgstr ""
+
+#: templates/admin/premium_tab.php:287
+msgid "Apply a %1$smarkup%2$s or a %1$sdiscount%2$s to the product price limited only to the pre-order period. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:303
+msgid "Bulk actions"
+msgstr ""
+
+#: templates/admin/premium_tab.php:306
+msgid "Speed your procedures using WordPress bulk actions. %3$sSet the \"pre-order\" status on several products of your shop at the same time sorting them by %1$stags%2$s and/or %1$scategories%2$s."
+msgstr ""
+
+#: templates/admin/premium_tab.php:315
+msgid "Custom text"
+msgstr ""
+
+#: templates/admin/premium_tab.php:318
+msgid "Customize the %1$slabel%2$s of \"Add to Cart\" button to show the %1$stext%2$s that better suits your \"Pre-Order\" products."
+msgstr ""
+
+#: templates/admin/premium_tab.php:321
+msgid "Use the placeholders to insert the %1$sexpiration date%2$s of the \"Pre-Order\" status in the message. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:337
+msgid "Prevent users from mixing products in the cart"
+msgstr ""
+
+#: templates/admin/premium_tab.php:340
+msgid "Hot news! Now you can prevent the purchase combining pre-order and other products of a different type. "
+msgstr ""
+
+#: templates/admin/premium_tab.php:343
+msgid "Enable the specific option and the system will manage everything. If a pre-order product type is already available in the cart, %1$sthe user could not add other products%2$s unless they are of the same type. "
+msgstr ""
+
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:12
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:41
+msgid "Product"
+msgstr ""
+
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:13
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:53
+msgid "Order"
+msgstr ""
+
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:14
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:58
+msgid "Price"
+msgstr ""
+
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:55
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: templates/woocommerce/frontend/my-account-my-pre-orders.php:83
+msgid "No Pre-Orders found."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "YITH Pre-Order for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-pre-order"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Thanks to <code><strong>YITH Pre-Order for WooCommerce</strong></code> you can improve right away the sales of unavailable items, offering your customers the chance to purchase the products and receive them only after they are officially on sale. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://yithemes.com/"
+msgstr ""

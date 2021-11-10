@@ -1,0 +1,6 @@
+2021-10-28T06:17:36+00:00 CRITICAL Uncaught TypeError: Argument 3 passed to WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken::request_response_string() must be of the type array, object given, called in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php on line 40 and defined in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php:52
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php(40): WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken->request_response_string('https://api.san...', Array, Object(WP_Error))
+#1 /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-identitytoken.php(91): WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken->request('https://api.san...', Array)
+#2 /home/nhominur/pu in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php on line 52
+

@@ -1,0 +1,20 @@
+2021-11-03T00:31:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b53dcf277ca58
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-03T00:33:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 20305e9facf55
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

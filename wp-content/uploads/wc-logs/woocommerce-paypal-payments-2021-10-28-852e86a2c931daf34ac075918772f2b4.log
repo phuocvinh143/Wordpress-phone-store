@@ -1,0 +1,1582 @@
+2021-10-28T05:56:20+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 9935d314df62d
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T05:56:41+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: aa52130624869
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T05:56:42+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/nhom08inurarea.cc\/index.php?rest_route=\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"}]}
+Response Debug ID: c7d8f0403de5c
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T05:56:42+00:00 INFO Webhooks subscribed.
+2021-10-28T05:56:43+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f4a8a7f41f435
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T05:58:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b2a38d2bd1bda
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T05:58:24+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: dc59c2b9b5e6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T05:58:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"42.00","breakdown":{"item_total":{"currency_code":"VND","value":"42.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Donec ullamcorper turpis","unit_amount":{"currency_code":"VND","value":"42.00"},"quantity":1,"description":"Aliquam porttitor mattis erat, a eleifend lorem tempor ut. Donec erat lacus, ultricies at dolor sed, accumsan sollicitudin libe","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 77afdc3e32a5a
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"42.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"77afdc3e32a5a","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T05:58:31+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T05:58:31+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T05:58:38+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"42.00","breakdown":{"item_total":{"currency_code":"VND","value":"42.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Donec ullamcorper turpis","unit_amount":{"currency_code":"VND","value":"42.00"},"quantity":1,"description":"Aliquam porttitor mattis erat, a eleifend lorem tempor ut. Donec erat lacus, ultricies at dolor sed, accumsan sollicitudin libe","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: be9524422220c
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"42.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"be9524422220c","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T05:58:38+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T05:58:38+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:00:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 9e85d0cfeafe5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:00:54+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 577f50596743b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:01:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 74f43c76f1f7b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:01:17+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"22.00","breakdown":{"item_total":{"currency_code":"VND","value":"22.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Suspendisse gravida lacus varius","unit_amount":{"currency_code":"VND","value":"22.00"},"quantity":1,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 7091072df7819
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"22.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"7091072df7819","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:01:17+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:01:17+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:01:33+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: ceeb4cb57ecf4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:01:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b0cd01ca92eb6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:03:29+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"22.00","breakdown":{"item_total":{"currency_code":"VND","value":"22.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Suspendisse gravida lacus varius","unit_amount":{"currency_code":"VND","value":"22.00"},"quantity":1,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amzing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 68b05bcc19465
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"22.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"68b05bcc19465","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:03:29+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:03:29+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:04:43+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"22.00","breakdown":{"item_total":{"currency_code":"VND","value":"22.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Suspendisse gravida lacus varius","unit_amount":{"currency_code":"VND","value":"22.00"},"quantity":1,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 2e7431d8a3fa0
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"22.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"2e7431d8a3fa0","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:04:43+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:04:43+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:04:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"22.00","breakdown":{"item_total":{"currency_code":"VND","value":"22.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Suspendisse gravida lacus varius","unit_amount":{"currency_code":"VND","value":"22.00"},"quantity":1,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: a9d7bcb66c98c
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"22.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"a9d7bcb66c98c","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:04:50+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:04:50+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:06:07+00:00 ERROR Checkout validation failed: <strong>Billing ZIP Code</strong> is not a valid postcode / ZIP.
+2021-10-28T06:06:11+00:00 ERROR Checkout validation failed: <strong>Billing ZIP Code</strong> is not a valid postcode / ZIP.
+2021-10-28T06:06:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7d394fb6220b3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:06:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 25bd2801c4fc3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:06:57+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bed83a29056cf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:07:03+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 3f95c5f6588f8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:07:09+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 12d532cba345c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:07:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 80ab2fa976507
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:07:38+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"50.00","breakdown":{"item_total":{"currency_code":"VND","value":"50.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":1,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 55188aef3e22
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"50.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"55188aef3e22","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:07:38+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:07:38+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:14:17+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: fd84b8d4e6f88
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:15:39+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 9032cf1c1a8de
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:17:11+00:00 DEBUG DELETE https://api.sandbox.paypal.com/v1/notifications/webhooks/2BY99875SK407711A
+Response Debug ID: f7dd8cdf18bcf
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+
+2021-10-28T06:17:11+00:00 INFO Webhooks deleted.
+2021-10-28T06:17:12+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/nhom08inurarea.cc\/index.php?rest_route=\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"}]}
+Response Debug ID: a0324bfdd926d
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:17:12+00:00 INFO Webhooks subscribed.
+2021-10-28T06:17:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 3630f9c955441
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:17:16+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: a1ffd93b1850b
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:17:29+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d092b3a99a401
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:17:55+00:00 DEBUG DELETE https://api.sandbox.paypal.com/v1/notifications/webhooks/32072548M29297239
+Response Debug ID: 4cfd5da5e6b2f
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"name":"INVALID_RESOURCE_ID","message":"Resource id is invalid","debug_id":"4cfd5da5e6b2f","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[],"links":[]}
+
+2021-10-28T06:17:56+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: a9756c58febad
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:17:58+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 725174dfc5d88
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:18:00+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 65c9a9bc8f75d
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:20:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: ee410fc52d0dc
+Response: Array
+(
+    [code] => 401
+    [message] => Unauthorized
+)
+
+Response Body: {"error":"invalid_authz_code","error_description":"Authorization code not found in cache"}
+
+2021-10-28T06:20:06+00:00 WARNING No token found.
+2021-10-28T06:20:06+00:00 ERROR Onboarding completion handling error: No token found.
+2021-10-28T06:20:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: 2f2ae4d243a6f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:20:07+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/credentials/
+Response Debug ID: 81054884fd5b4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:20:10+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 184e0e03da5b6
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:20:11+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: ad2774392b1cc
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:21:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: c0189ba80c0c5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:21:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: c0189bb6286e9
+Response: Array
+(
+    [code] => 401
+    [message] => Unauthorized
+)
+
+Response Body: {"error":"invalid_authz_code","error_description":"Authorization code not found in cache"}
+
+2021-10-28T06:21:47+00:00 WARNING No token found.
+2021-10-28T06:21:47+00:00 ERROR Onboarding completion handling error: No token found.
+2021-10-28T06:21:47+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/credentials/
+Response Debug ID: 822170f4b0562
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:21:49+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 44be866f6b61e
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:21:50+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 1f2da09aaa6c6
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:21:59+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: ea55a73da4687
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:22:01+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: f27ff5d921244
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:23:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: d83a12a0e4ae2
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"d83a12a0e4ae2","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:23:47+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:23:47+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:27+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: dd7124a68b34d
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"dd7124a68b34d","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:24:27+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:27+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 7ec2acbe06171
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"7ec2acbe06171","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:24:31+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:31+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:35+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: b64451f1a930c
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"b64451f1a930c","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:24:35+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:24:35+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:25:29+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: cb14e7a8fbe0b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:25:31+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 190f6158b7679
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:26:19+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 43842e347b651
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:26:22+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: d4ed6159954ea
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:26:37+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7d55d92fdbbf9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:26:43+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4bb4474c98fd2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:26:51+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 009d81936aaa8
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"009d81936aaa8","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:26:51+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:26:51+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:27:00+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bf91e1aea3857
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:27:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"100.00","breakdown":{"item_total":{"currency_code":"VND","value":"100.00"},"shipping":{"currency_code":"VND","value":"0.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Aliquam erat volutpat","unit_amount":{"currency_code":"VND","value":"50.00"},"quantity":2,"description":"Nulla finibus massa non maximus rhoncus. Duis ut ligula et nibh dictum eleifend vel non massa. Aliquam molestie, urna at pellen","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 935382d185cc4
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"100.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"935382d185cc4","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:27:08+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:27:08+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:28:27+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 795fee90dfe09
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:29:46+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 5d5be65255627
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:34:34+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 3a855ad607191
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:34:37+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 236fac2c80c1e
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T06:34:49+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8d241e9d6ea0c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:34:52+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f710bb472602c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:34:59+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"30040.00","breakdown":{"item_total":{"currency_code":"VND","value":"40.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Fusce nec diam et dolor","unit_amount":{"currency_code":"VND","value":"40.00"},"quantity":1,"description":"Fusce nec diam et dolor ornare rhoncus nec ut mauris. In eleifend mi in felis dictum fermentum. Morbi vel arcu sit amet dolor v","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"fas","surname":"dasd"},"email_address":"maiphuocvinh143@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"Can Tho","postal_code":"900000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0918125278"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 566628de06e15
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"30040.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"566628de06e15","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:34:59+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:34:59+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:35:21+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"30040.00","breakdown":{"item_total":{"currency_code":"VND","value":"40.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Fusce nec diam et dolor","unit_amount":{"currency_code":"VND","value":"40.00"},"quantity":1,"description":"Fusce nec diam et dolor ornare rhoncus nec ut mauris. In eleifend mi in felis dictum fermentum. Morbi vel arcu sit amet dolor v","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 42c83c4b159fe
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"30040.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"42c83c4b159fe","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:35:21+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:35:21+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:35:26+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"30040.00","breakdown":{"item_total":{"currency_code":"VND","value":"40.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"Fusce nec diam et dolor","unit_amount":{"currency_code":"VND","value":"40.00"},"quantity":1,"description":"Fusce nec diam et dolor ornare rhoncus nec ut mauris. In eleifend mi in felis dictum fermentum. Morbi vel arcu sit amet dolor v","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"en-US","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: ad2e5330b3d35
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"30040.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"ad2e5330b3d35","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-10-28T06:35:26+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:35:26+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-10-28T06:36:02+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 40b28f667c5ed
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:36:18+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 542b01c8c4314
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T06:36:48+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 8018dc432f9b7
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-10-28T13:11:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7ffca1b29fd98
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:14:48+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d2408f8ca093d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:15:36+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 99c87cd1642a6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:15:54+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bf518f32c8e58
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:17:28+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 923c0b5d09f9c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:19:34+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: fb445017aa757
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:42:23+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 399459234dfbc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:42:45+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: a36cee0bb4a4c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:58:24+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: fdb240a8605f3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:58:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 12a8b77c5901
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:58:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8902bf57308d8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T13:58:54+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: dc23317e8dab7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:04:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: a0f98693bfea4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:04:17+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 956b9fe38ff9f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:04:24+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7e32f5c789c83
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:06:04+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 67d94db36cfe0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:06:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e50eb1f2c91d6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:06:29+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: fb89078be7938
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:06:44+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: a1af7e569d58
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:02+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: abed6e0fa5318
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:16+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 135be7c8871cb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:20+00:00 DEBUG GET https://api.sandbox.paypal.com/v2/vault/payment-tokens/?customer_id=cffaaf-1
+Response Debug ID: b737ee4a36f6d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:21+00:00 DEBUG GET https://api.sandbox.paypal.com/v2/vault/payment-tokens/?customer_id=cffaaf-1
+Response Debug ID: 3a672a98ce524
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 83060de5026e7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:07:33+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 6c3890b23415
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:10:35+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 9ea23cc74de7b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:21:34+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: ce22382c833f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:22:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4a37b5495dc09
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:22:20+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 6ba652fff24cb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:22:29+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7a8881b5bec74
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:22:45+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c1b00027a85c7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:23:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: a49b960cac3af
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:34:34+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: a7bedac241317
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:34:42+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f871712cfcd0a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:42:43+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 1ec6ec32d35ad
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:43:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 351429de5c1ec
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:45:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 41171c7f3eb5e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:45:16+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d2311ffe09d77
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:46:00+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 257c688d43ae2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:46:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 692a85c21d472
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:46:21+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 229cb79e97fdd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:47:49+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 226f28466879
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:48:18+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c382498261fff
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:48:25+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 61bb76458aaab
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:52:15+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4fd849ea13790
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:53:48+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e427fc009b442
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:54:58+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: caa70cb5164a5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:55:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d5f3f274a22e2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:55:28+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: cb7a771bc1990
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:55:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c35a17271fea6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:55:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 605bbbaf7a267
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:56:07+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 719c6c8305446
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:56:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8cd045780f4ee
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:56:27+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 2aba119c1de87
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:57:01+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f0a602b8870a7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:57:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 686ddefbf96a2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:58:45+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f6b3ba4091056
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:58:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d4ed277bda401
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:59:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 978cc4362afa0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:59:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8d306b4bde11b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T14:59:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: af57a9420ff34
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:02:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 39b03afd12169
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:02:17+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8e56b828b4eb8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:02:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 942f82ea57db9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:02:56+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 9db0ef97d8a19
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:03:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 68625d9a986f5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:04:18+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 397f7f09d1654
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:04:38+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bde8177c8edf3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:04:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e4dcf2f43e233
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:05:03+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c7abfd58e5c71
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:06:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 302c046bcf660
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:06:15+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8cfef77797bdf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: aeb6c94d2e19d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:28+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 668f492a5069c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:32+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8af361eaa22cb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f1a7cec45fa0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:44+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d093065d6de9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:08:59+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 3014170813642
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:09:05+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f4d5519daf963
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:10:02+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: dd4f0e810bcde
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:10:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 106a523f2035e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-10-28T15:10:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 45880b861b35c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

@@ -1,0 +1,880 @@
+2021-11-01T08:05:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 9202f2dd3044
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:05:54+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: 1f8dfd3dc5d91
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:06:12+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: bbe02028f1e05
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:06:47+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: 41154a8291e3a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:07:01+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: f9daa562c415b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:07:23+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: 3a6de5449e1cd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:07:32+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: b8084296a6ef5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:07:57+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-2"}
+Response Debug ID: a69fe66cee367
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:08:34+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 599805608d2a1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:11:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bc4ff809fb177
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:12:52+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: de952ba7fd25
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:13:07+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b20050847cecf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:13:12+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d14fcc4bf6e22
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:13:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 73dcb1467cd02
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:13:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e7e2929c6f69d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:14:24+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 6b429179bd322
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:18:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7e3df3230455e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:32:00+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 184f75928f317
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:32:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: eea2f28b605a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:32:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 369ff5ead3fa0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:32:51+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 5644de3cba641
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:35:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: dcf77544f7342
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:35:16+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b59def87773c8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:35:48+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 123e90f8a9999
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:35:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4bd5e7d16258e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:36:05+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4cc4a0ba33de9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:36:16+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b663c94a6efd5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:36:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 6fe0c50338d6c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:37:07+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4646db909232c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:38:15+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4ea0ca7eeaf77
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:39:35+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 72d3255f95ec0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:39:42+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bbae55778a0a8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:40:30+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: fdbdbd4275c50
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:40:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f902803f9dfb3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:40:56+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8f6101fbfe39e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:41:03+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 10cf0d02f3231
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:41:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 3ee698a380bdb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:43:25+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c3456ed6ddc0f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:43:46+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c7a7e3b396996
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:44:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: cabbe896424d2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:44:14+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 70848ad93bac7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:44:24+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 94f0891cf84f0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:44:33+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: cd1a2f95ca77b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:45:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 4b0ec1568ab10
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:45:23+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d808444868e1a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:46:16+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 2af851c3efafc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:46:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 54da1f21af22e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:48:37+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d7b10f087686b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:49:59+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 1c2cec9280d0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:50:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 19b8f7d554ae0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:50:19+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 1a1b514ed0ea1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:50:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 23e5b4c3772de
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:51:05+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 58ae85c0023f9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:51:12+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 1bdbbaa8d998e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:52:15+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 710c45e869187
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:57:04+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 77225addc0440
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:58:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 6c08a13e529ab
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:58:42+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f1d01febf7cdf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:59:21+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 31507cbe3e577
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:59:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: add423d1cb66a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:59:39+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 116b4b303f1c1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T08:59:45+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7b03315f654a8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:02:00+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 5459d8278b306
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:02:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: daf475a816366
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:02:58+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e9bd3dbed8706
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:03:10+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 58748f0f3024f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:03:31+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c63881563f843
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:03:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 7b0d88cf6a622
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:05:06+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 79f8bbecdf259
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:05:51+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: d27484768cd50
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:07:32+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: faf615d2a7087
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:07:46+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: cfc39a7de10c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:07:56+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 950ece96fee04
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:08:13+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: c05592d01a1d5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:09:19+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 8bec91e581e49
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:09:26+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: e1d626893e545
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:09:40+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"9090000.00","breakdown":{"item_total":{"currency_code":"VND","value":"8990000.00"},"shipping":{"currency_code":"VND","value":"100000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"\u0110i\u1ec7n tho\u1ea1i Samsung Galaxy A52","unit_amount":{"currency_code":"VND","value":"8990000.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"},"shipping":{"name":{"full_name":"Personal Mai"},"address":{"country_code":"US","address_line_1":"3748 Jewell Road","address_line_2":"","admin_area_1":"AZ","admin_area_2":"\bKEAMS CANYON","postal_code":"86034"}}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"GET_FROM_FILE","landing_page":"LOGIN","locale":"vi","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"Personal","surname":"Mail"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"US","address_line_1":"3748 Jewell Road","address_line_2":"","admin_area_1":"AZ","admin_area_2":"KEAMS CANYON","postal_code":"86034"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"4085001868"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: cf267590f4fb2
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/amount/value","value":"9090000.00","issue":"DECIMALS_NOT_SUPPORTED","description":"Currency does not support decimals. Please refer to https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for more information."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"cf267590f4fb2","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED","rel":"information_link","method":"GET"}]}
+
+2021-11-01T09:09:40+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-11-01T09:09:40+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-DECIMALS_NOT_SUPPORTED
+2021-11-01T09:10:46+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 53c574aeb7f53
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-11-01T09:11:14+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: f9a5c68a52624
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:11:16+00:00 DEBUG POST https://connect.woocommerce.com/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/nhom08inurarea.cc\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 241e67cd91b8e
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2021-11-01T09:15:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: f5c97d9d2c1f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:17:22+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 2668fc036309d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:17:49+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"9020000.00","breakdown":{"item_total":{"currency_code":"VND","value":"8990000.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"\u0110i\u1ec7n tho\u1ea1i Samsung Galaxy A52","unit_amount":{"currency_code":"VND","value":"8990000.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"SET_PROVIDED_ADDRESS","landing_page":"LOGIN","locale":"vi","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"Personal","surname":"Mail"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"KEAMS CANYON","postal_code":"86034"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"4085001868"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 9de9fd21373a7
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/shipping/address","issue":"MISSING_SHIPPING_ADDRESS","description":"The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"9de9fd21373a7","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS","rel":"information_link","method":"GET"}]}
+
+2021-11-01T09:17:49+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:17:49+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:18:09+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"9020000.00","breakdown":{"item_total":{"currency_code":"VND","value":"8990000.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"\u0110i\u1ec7n tho\u1ea1i Samsung Galaxy A52","unit_amount":{"currency_code":"VND","value":"8990000.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"SET_PROVIDED_ADDRESS","landing_page":"LOGIN","locale":"vi","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"Personal","surname":"Mail"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"KEAMS CANYON","postal_code":"86034"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"4085001868"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: a0b7a2e7a4ba7
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/shipping/address","issue":"MISSING_SHIPPING_ADDRESS","description":"The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"a0b7a2e7a4ba7","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS","rel":"information_link","method":"GET"}]}
+
+2021-11-01T09:18:09+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:18:09+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:18:52+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"VND","value":"9020000.00","breakdown":{"item_total":{"currency_code":"VND","value":"8990000.00"},"shipping":{"currency_code":"VND","value":"30000.00"},"tax_total":{"currency_code":"VND","value":"0.00"}}},"description":"","items":[{"name":"\u0110i\u1ec7n tho\u1ea1i Samsung Galaxy A52","unit_amount":{"currency_code":"VND","value":"8990000.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"VND","value":"0.00"}}],"payee":{"merchant_id":"L95FEE4HSERVY"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"SET_PROVIDED_ADDRESS","landing_page":"LOGIN","locale":"vi","brand_name":"Th\u1ebf gi\u1edbi \u0111i\u1ec7n tho\u1ea1i","return_url":"https:\/\/nhom08inurarea.cc\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/nhom08inurarea.cc\/?page_id=8"},"payer":{"name":{"given_name":"Personal","surname":"Mail"},"email_address":"amazing.personal@gmail.com","address":{"country_code":"VN","address_line_1":"505c\/6 Nguyen Van Linh street","address_line_2":"","admin_area_1":"","admin_area_2":"KEAMS CANYON","postal_code":"86034"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"4085001868"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: debc2e5f3622b
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"field":"/purchase_units/@reference_id=='default'/shipping/address","issue":"MISSING_SHIPPING_ADDRESS","description":"The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"debc2e5f3622b","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS","rel":"information_link","method":"GET"}]}
+
+2021-11-01T09:18:52+00:00 WARNING Failed to create order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:18:52+00:00 ERROR Order creation failed: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+2021-11-01T09:20:05+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 2a3a177d4024e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-01T09:20:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 77e0d8a72e79d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

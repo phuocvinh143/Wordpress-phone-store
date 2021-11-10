@@ -1,0 +1,89 @@
+2021-11-06T04:05:44+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 88fdbe57aabe8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:05:46+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: fc0ef5eea6258
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:06:04+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: afaf620353c23
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:14:04+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 109db582c14b2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:14:55+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 2b92bd82a5726
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:26:19+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: b848c464b48c8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:27:09+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: cd4f8aa57732f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:38:18+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: 519b82e144f37
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2021-11-06T04:38:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cffaaf-1"}
+Response Debug ID: bba4731a59dc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

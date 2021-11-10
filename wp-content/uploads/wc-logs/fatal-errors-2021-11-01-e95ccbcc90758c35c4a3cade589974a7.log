@@ -1,0 +1,162 @@
+2021-11-01T08:30:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:31:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:31:12+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:31:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:31:40+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:33:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:33:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:33:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:34:41+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:34:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:34:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:44:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T08:44:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php:29
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php(39): big_store_cart_total_item()
+#1 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/nhominur/public_html/wp-content/themes/big-store/inc/header-function.php(765): do_action('open_cart_count')
+#5 /home/nhominur/public_html/wp-includes/class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 /home/nhominur/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhominur/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /home/nhominur/public_html/wp-include in /home/nhominur/public_html/wp-content/themes/big-store/inc/woocommerce/woo-function.php on line 29
+
+2021-11-01T09:06:11+00:00 CRITICAL Uncaught TypeError: Argument 3 passed to WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken::request_response_string() must be of the type array, object given, called in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php on line 40 and defined in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php:52
+Stack trace:
+#0 /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php(40): WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken->request_response_string('https://api.san...', Array, Object(WP_Error))
+#1 /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-identitytoken.php(91): WooCommerce\PayPalCommerce\ApiClient\Endpoint\IdentityToken->request('https://api.san...', Array)
+#2 /home/nhominur/pu in /home/nhominur/public_html/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-requesttrait.php on line 52
+

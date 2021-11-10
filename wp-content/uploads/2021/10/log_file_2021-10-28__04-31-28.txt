@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: Big Store Electro were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://nhom08inurarea.cc
+Data file = /home/nhominur/public_html/wp-content/uploads/2021/10/demo-content-import-file_2021-10-28__04-31-28.xml
+Widget file = /home/nhominur/public_html/wp-content/uploads/2021/10/demo-widgets-import-file_2021-10-28__04-31-28.json
+Customizer file = /home/nhominur/public_html/wp-content/uploads/2021/10/demo-customizer-import-file_2021-10-28__04-31-28.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "Pexels Videos 905049" (Media)
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Image - No Title - Imported
+Products list - Popular - Imported
+Tag Cloud - Tag Clouds - Imported
+
+Footer Below Second Widget : 
+
+Image - No Title - Imported
+
+Footer Widget Area 1 : 
+
+Text - Connect With Us - Imported
+Text - Useful Links - Imported
+
+Footer Widget Area 2 : 
+
+Text - More About Store - Imported
+Navigation Menu - End Points - Imported
+
+Footer Widget Area 3 : 
+
+Products list - Products - Imported
+
+Footer Widget Area 4 : 
+
+Custom HTML - Contact Details - Imported
+Text - Offline Stores - Imported
+
+WooCommerce Sidebar : 
+
+Filter Products by Price - Filter by Price - Imported
+Product Categories - Product categories - Imported
+Products list - Products - Imported
+Filter Products by Rating - Average Rating - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
